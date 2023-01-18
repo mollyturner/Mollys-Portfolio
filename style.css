@@ -2,7 +2,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 :root {
-    --color1: #bbe9db;
+    --color1: #89CFF0;
     --color2: #aeccc6;
     --color3: #9ba6a5;
     --color4: #757a79;
@@ -54,12 +54,6 @@
     border: 4px solid var(--color4);
 }
 
-/* ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: flex-end, space-evenly;
-}*/
-
 header {
     display: flex;
     background-color: var(--color5);
@@ -72,42 +66,57 @@ h1, h2 {
     color: var(--color4);
 }
 
-.sections {
+.hdr2,.hdr-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: flex-end;
+}
+
+.section1, .section2, .section3 {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    margin-top: 30px;
 }
 
 hr {
-    margin: 8px 8px;
+    margin: 0;
     background-color: var(--color5);
-    height: 80px;
     width: 2px;
     border: none;
+    height: auto;
+    margin: 0 20px 0 10px;
 
 }
 
 main {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+
 }
 
-.first-section {
-    width: 200px;
-    height: 100px;
+.first-part {
+    height: fit-content;
     display: flex;
     justify-content: end;
-
+    flex-direction: column;
+    width: 95px;
 }
 
+.second-part {
+    display: flex;
+    height: auto;
+    width: 690px;
+}
 img.stock {
     height: 50px;
     width: 150px;
     border: solid var(--color1);
     /*filter: grayscale(70%) blur(.5px);*/
     filter: sepia(100%) hue-rotate(160deg) saturate(120%);
-}
-img::after{
-
 }
 
 img:hover {
@@ -116,4 +125,31 @@ img:hover {
     cursor: pointer;
 }
 
+.p1 {
+    font-size: small;
+}
 
+.p2 {
+    margin-top: 20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+   font-size: small;  
+  /* margin: 30px 80px 0px 20px; */
+}
+
+.contact-info {
+    display: flex;
+    font: var(--color1);
+    list-style-type: none;
+    text-decoration: underline;
+    margin-left: 10px;
+    color: var(--color4);
+}
+
+.paragraphs {
+    width: 690px;
+}
+
+.item-2 {
+    justify-content: end;
+}
