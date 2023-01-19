@@ -11,11 +11,10 @@
 }
 
 body {
-    /* width: 100vw; */
     min-width: fit-content;
-
 }
 
+/* Nav bar/header styling */
 .nav-bar {
     display: flex;
     width: 100%;
@@ -66,6 +65,7 @@ header {
     background-image: var(--background-image);
 }
 
+/* Styling of sections and main page content*/
 h1,
 h2 {
     display: flex;
@@ -91,7 +91,6 @@ h2 {
     margin-top: 30px;
     width: 70%;
 }
-
 
 hr {
     margin: 0;
@@ -126,10 +125,6 @@ main {
     width: 80%;
 }
 
-.paragraphs {
-    /* width: 690px; */
-}
-
 .p1,
 .p2 {
     font-size: x-large;
@@ -151,8 +146,6 @@ main {
     font-size: x-large;
 }
 
-
-
 .item-2 {
     justify-content: end;
 }
@@ -166,6 +159,13 @@ main {
     width: 100%;
 }
 
+/* Image styling for "Work" section*/
+.images-box {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
 .images {
     position: relative;
     width: 49.5%;
@@ -204,6 +204,7 @@ img:hover {
     cursor: pointer;
 }
 
+/* Text block styling */
 .text-block1 {
     background-color: var(--color1);
     color: var(--color5);
@@ -234,14 +235,7 @@ img:hover {
     font-size: smaller;
 }
 
-.images-box {
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Media queries for small devices (portrait tablets and large phones) */
 @media screen and (max-width: 1210px) {
     .contact-info {
         font-size: medium;
@@ -263,7 +257,6 @@ img:hover {
         margin-bottom: 22px;
         max-height: 200px;
     }
-
     .stock1 {
         height: 200px;
     }
@@ -278,6 +271,7 @@ img:hover {
     }
 } 
 
+ /* Styling to image text block */
 @media screen and (max-width: 580px) {
     .text-block {
         top:88px;
