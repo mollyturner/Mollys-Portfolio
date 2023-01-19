@@ -21,6 +21,7 @@
 .nav-bar-list {
     display: flex;
     margin-right: 50px;
+    list-style-type: none;
 }
 
 .name {
@@ -31,11 +32,9 @@
     height: fit-content;
 }
 
-
-
-.item {
+.item a {
     display: flex;
-    font: var(--color1);
+    color: var(--color1);
     list-style-type: none;
     text-decoration: underline;
     margin-left: 10px;
@@ -59,7 +58,6 @@ header {
     display: flex;
     background-color: var(--color5);
     background-image: var(--background-image);
-
 }
 
 h1,
@@ -118,51 +116,28 @@ main {
     width: 690px;
 }
 
-img.stock1 {
-    height: 300px;
-    width: 608px;
-    border: solid var(--color1);
-    filter: sepia(100%) hue-rotate(160deg) saturate(120%);
+.paragraphs {
+    width: 690px;
 }
 
-img.stock {
-    height: 150px;
-    width: 300px;
-    border: solid var(--color1);
-    /*filter: grayscale(70%) blur(.5px);*/
-    filter: sepia(100%) hue-rotate(160deg) saturate(120%);
-}
-
-img:hover {
-    filter: none;
-    border: solid var(--color1);
-    cursor: pointer;
-}
-
-.p1 {
+.p1,
+.p2 {
     font-size: small;
 }
 
 .p2 {
     margin-top: 20px;
-    /* display: flex; */
-    /* flex-direction: column; */
-    font-size: small;
-    /* margin: 30px 80px 0px 20px; */
 }
 
 .contact-info {
     display: flex;
-    font: var(--color1);
     list-style-type: none;
     text-decoration: underline;
-    margin-left: 10px;
-    color: var(--color4);
+    margin-left: 38px;
+    color: solid var(--color4);
 }
 
-.paragraphs {
-    width: 690px;
-}
+
 
 .item-2 {
     justify-content: end;
@@ -171,30 +146,73 @@ img:hover {
 .contact-content {
     display: flex;
     color: solid var(--color4);
+    padding-left: 0px;
 }
 
 .images {
     position: relative;
 }
 
+.images1 {
+    position: relative;
+}
+
+img.stock1 {
+    height: 300px;
+    width: 630px;
+    border: solid var(--color1);
+    filter: sepia(100%) hue-rotate(160deg) saturate(120%);
+    margin-bottom: 10px;
+}
+
+img.stock{
+    height: 150px;
+    width: 308px;
+    border: solid var(--color1);
+    filter: sepia(100%) hue-rotate(160deg) saturate(120%);
+    margin: 0 10px 10px 0;
+}
+
+img:hover {
+    filter: none;
+    border: solid var(--color1);
+    cursor: pointer;
+}
+
 .text-block1 {
     background-color: var(--color1);
     color: var(--color5);
     position: absolute;
-    top: 180px;
+    top: 223px;
     left: 0;
-    width: 250px;
+    width: 200px;
+    height: 65px;
+}
+.text-block {
+    background-color: var(--color1);
+    color: var(--color5);
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 200px;
+    height: 65px;
 }
 
-
 .text-tile-top {
-    margin-left: 20px;
-    margin-bottom: 10px;
     font-size: larger;
+    margin: 10px 0px 5px 20px;
 }
 
 .text-tile {
-    margin-left: 20px;
+    margin-left: 25px;
     margin-top: 0;
     font-size: smaller;
 }
+
+.test {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
