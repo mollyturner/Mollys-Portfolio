@@ -273,4 +273,14 @@ img:hover {
         width: 200px;
         height: 65px;
     }
+    .left-image {
+        margin-right: 0;
+    }
 } 
+
+@media screen and (max-width: 580px) {
+    .text-block {
+        top:88px;
+    }
+}
+    
