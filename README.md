@@ -25,4 +25,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 ## Portfolio Screenshot
 
+![screencapture-file-Users-mollyturner-Desktop-bootcamp-Challenges-mollys-portfolio-index-html-2023-01-19-17_28_46](https://user-images.githubusercontent.com/93564137/213585864-c7bdf5d7-d1dc-4747-ab00-38143c1d6b98.png)
+
 ## Deployed URL
+https://mollyturner.github.io/Mollys-Portfolio/
